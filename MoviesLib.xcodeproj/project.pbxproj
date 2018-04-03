@@ -44,6 +44,8 @@
 		0778E3C21E88EECC00BF38C5 /* sully-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0778E3A81E88EECC00BF38C5 /* sully-wide.jpg */; };
 		AC96F9FE2072E47C0047311E /* theaters.xml in Resources */ = {isa = PBXBuildFile; fileRef = AC96F9FD2072E47C0047311E /* theaters.xml */; };
 		AC96FA002072E70C0047311E /* TheatersMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC96F9FF2072E70C0047311E /* TheatersMapViewController.swift */; };
+		AC96FA022072EBE50047311E /* Theater.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC96FA012072EBE50047311E /* Theater.swift */; };
+		AC96FA042072F6DE0047311E /* TheaterAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC96FA032072F6DE0047311E /* TheaterAnnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,8 @@
 		0778E3A81E88EECC00BF38C5 /* sully-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-wide.jpg"; sourceTree = "<group>"; };
 		AC96F9FD2072E47C0047311E /* theaters.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = theaters.xml; sourceTree = "<group>"; };
 		AC96F9FF2072E70C0047311E /* TheatersMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheatersMapViewController.swift; sourceTree = "<group>"; };
+		AC96FA012072EBE50047311E /* Theater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theater.swift; sourceTree = "<group>"; };
+		AC96FA032072F6DE0047311E /* TheaterAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterAnnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,10 +128,12 @@
 				0778E36E1E88B48500BF38C5 /* Movie.swift */,
 				07780D4E1E6D860E00BC3630 /* MovieViewController.swift */,
 				AC96F9FD2072E47C0047311E /* theaters.xml */,
+				AC96FA012072EBE50047311E /* Theater.swift */,
 				0703AD961E8553B2001FB5FD /* MoviesTableViewController.swift */,
 				0778E3701E88D4DA00BF38C5 /* MovieTableViewCell.swift */,
 				07780D501E6D860E00BC3630 /* Main.storyboard */,
 				AC96F9FF2072E70C0047311E /* TheatersMapViewController.swift */,
+				AC96FA032072F6DE0047311E /* TheaterAnnotation.swift */,
 				07780D531E6D860E00BC3630 /* Assets.xcassets */,
 				07780D551E6D860E00BC3630 /* LaunchScreen.storyboard */,
 				07780D581E6D860E00BC3630 /* Info.plist */,
@@ -270,7 +276,9 @@
 			files = (
 				0778E3711E88D4DB00BF38C5 /* MovieTableViewCell.swift in Sources */,
 				0703AD971E8553B2001FB5FD /* MoviesTableViewController.swift in Sources */,
+				AC96FA042072F6DE0047311E /* TheaterAnnotation.swift in Sources */,
 				07780D4F1E6D860E00BC3630 /* MovieViewController.swift in Sources */,
+				AC96FA022072EBE50047311E /* Theater.swift in Sources */,
 				0778E36F1E88B48500BF38C5 /* Movie.swift in Sources */,
 				07780D4D1E6D860E00BC3630 /* AppDelegate.swift in Sources */,
 				AC96FA002072E70C0047311E /* TheatersMapViewController.swift in Sources */,
